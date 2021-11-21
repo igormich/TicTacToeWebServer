@@ -1,0 +1,46 @@
+.desk,.desk td, .desk tr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgrey;
+}
+.desk td {
+    width: 100px;
+    height: 100px;
+    user-select: none;
+    font-size: 50pt;
+    font-family: "Comic Sans MS", Arial, serif;
+    text-align: center;
+    vertical-align: center;
+}
+.red {
+    background-color: red;
+}
+.center {
+    alignment: center;
+}
+
+.line-diag-down-up  {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M0 100 L100 0' stroke='black' stroke-width='4' fill='none' /> </svg>");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+}
+.line-diag-up-down {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M0 0 L100 100' stroke='black' stroke-width='4' fill='none' /></svg>");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+}
+
+.line-vertical {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M50 0 L50 100' stroke='black' stroke-width='4' fill='none' /></svg>");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+}
+.line-horizontal {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M0 50 L100 50' stroke='black' stroke-width='4' fill='none' /></svg>");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+}
